@@ -2,22 +2,22 @@ package ru.job4j.converter;
 
 public class Converter {
     public static float rubleToEuro(float value) {
-        float rsl = 140 / 70.f;
+        float rsl = value / 70;
         return rsl;
     }
 
     public static float euroToRuble(float value) {
-        float rsl = 28 * 70.f;
+        float rsl = value * 70;
         return rsl;
     }
 
     public static float rubleToDollar(float value) {
-        float rsl = 873 / 60.f;
+        float rsl = value / 60;
         return rsl;
     }
 
     public static float dollarToRuble(float value) {
-        float rsl = 34 * 60.f;
+        float rsl = value * 60;
         return rsl;
     }
 
