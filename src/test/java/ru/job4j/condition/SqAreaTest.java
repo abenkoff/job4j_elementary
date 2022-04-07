@@ -12,23 +12,23 @@ public class SqAreaTest {
         int expected = 2;
         double out = SqArea.square(p, k);
         Assert.assertEquals(expected, out, 0.01);
-        }
+    }
 
-        @Test
+    @Test
     public void whenP4K1Square1() {
         int p = 4;
         double k = 1;
         int expected = 1;
         double out = SqArea.square(p, k);
         Assert.assertEquals(expected, out, 0.01);
-        }
+    }
 
-        @Test
-    public void whenP8K5Square9() {
+    @Test
+    public void whenP8K5Square2dot22() {
         int p = 8;
         double k = 5;
         double expected = 2.22;
         double out = SqArea.square(p, k);
         Assert.assertEquals(expected, out, 0.01);
-        }
+    }
 }
