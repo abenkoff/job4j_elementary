@@ -42,7 +42,7 @@ public class FindLoopTest {
         int[] data = new int[] {7, 3, 8, 6, 5, 1, 6};
         int el = 8;
         int start = 3;
-        int finish = 7;
+        int finish = 6;
         int result = FindLoop.indexInRange(data, el, start, finish);
         int expected = -1;
         Assert.assertEquals(expected, result);
