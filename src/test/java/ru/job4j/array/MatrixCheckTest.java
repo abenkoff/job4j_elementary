@@ -22,11 +22,11 @@ public class MatrixCheckTest {
     @Test
     public void whenHasNotX() {
         char[][] input = {
-                {'X', 'X', 'X'},
+                {'X', 'X', ' '},
                 {' ', ' ', ' '},
                 {' ', ' ', ' '}
         };
-        int row = 2;
+        int row = 0;
         boolean result = MatrixCheck.monoHorizontal(input, row);
         Assert.assertFalse(result);
     }
